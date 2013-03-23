@@ -5,7 +5,7 @@ jsToolBar.prototype.elements.bold = {
         type: 'button',
         title: 'Bold',
         fn: {
-                wiki: function() { this.singleTag("*", "*") }
+                wiki: function() { this.singleTag("**", "**") }
         }
 }
 
