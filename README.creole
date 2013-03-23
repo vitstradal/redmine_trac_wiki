@@ -1,0 +1,37 @@
+= Redmine Trac Wiki Formatter =
+
+This is a redmine plugin that supports Trac-style wiki markup
+within Redmine.  This makes it easier for those that would like
+to "upgrade" from Trac to Redmine without losing an existing wiki
+or those who are using Redmine but prefer Trac's wiki formatting
+over that of Redmine's
+
+== License ==
+
+GPL 
+
+== What is Redmine? ==
+
+Redmine is a flexible project management web application.
+See URL:http://www.redmine.org for more details.
+
+== What is Trac? ==
+
+Trac is a ticket tracking system that has many built-in features
+including a source code browser, integrated wiki, etc.
+See http://trac.edgewall.org/ for more details.
+
+== Plugin installation ==
+
+=== Prerequisites ===
+
+trac-wiki
+
+
+=== Installation ===
+
+(1) Copy the plugin directory into the vendor/plugins directory
+(2) Start Redmine
+
+Installed plugins are listed on 'Admin -> Information' screen.
+
