@@ -181,3 +181,16 @@ jsToolBar.prototype.elements.img = {
           wiki: function() { this.encloseSelection("[[Image(", ")]]") }
         }
 }
+
+// save
+jsToolBar.prototype.elements.save = {
+        type: 'button',
+        title: 'Save',
+        fn: {
+	    wiki: function() {
+			window.onbeforeunload = undefined;
+			this.textarea.form.submit();
+	    },
+	},
+        
+}

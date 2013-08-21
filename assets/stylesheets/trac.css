@@ -43,6 +43,9 @@
 	background-image: url(../images/jstoolbar/bt_img.png);
 }
 
+.jstb_save {
+	background-image: url(../images/jstoolbar/bt_save.png);
+}
 .jsToggler {
   display: inline;
 }

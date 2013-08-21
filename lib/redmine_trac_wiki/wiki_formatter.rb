@@ -1,5 +1,5 @@
 require 'rubygems'
-require 'trac_wiki'
+require 'trac-wiki'
 
 module RedmineTracWiki
   class WikiFormatter
@@ -9,7 +9,7 @@ module RedmineTracWiki
     # Create the object
     def initialize(text = "")
       @text = text
-      @options = {}
+      @options = {:no_link=>true}
     end
 
     def to_html(&block)
