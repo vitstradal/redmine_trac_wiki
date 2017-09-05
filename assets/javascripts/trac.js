@@ -181,6 +181,14 @@ jsToolBar.prototype.elements.img = {
           wiki: function() { this.encloseSelection("[[Image(", ")]]") }
         }
 }
+// commit
+jsToolBar.prototype.elements.commit = {
+        type: 'button',
+        title: 'commit',
+        fn: {
+          wiki: function() { this.encloseSelection('commit:', '') }
+        }
+}
 
 // save
 jsToolBar.prototype.elements.save = {

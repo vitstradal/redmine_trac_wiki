@@ -46,6 +46,9 @@
 .jstb_save {
 	background-image: url(../images/jstoolbar/bt_save.png);
 }
+.jstb_commit {
+       background-image: url(../images/jstoolbar/bt_commit.png);
+}
 .jsToggler {
   display: inline;
 }
